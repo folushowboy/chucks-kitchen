@@ -24,15 +24,15 @@ A modern, responsive web application for browsing and ordering food online. Buil
 ## Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone <https://github.com/folushowboy/chucks-kitchen.git>
+```bash
+git clone <repository-url>
 cd chuks-kitchen
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ## Usage
 
@@ -40,39 +40,39 @@ npm install
 
 Run the development server with hot module replacement (HMR):
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
-The application will be available at \`https://chuck-foods.netlify.app/`
+The application is live at https://chuck-foods.netlify.app/
 
 ### Building for Production
 
 Build the project for production:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ### Preview Production Build
 
 Preview the production build locally:
 
-\`\`\`bash
+```bash
 npm run preview
-\`\`\`
+```
 
 ### Linting
 
 Check code for linting errors:
 
-\`\`\`bash
+```bash
 npm run lint
-\`\`\`
+```
 
 ## Project Structure
 
-\`\`\`
+```
 src/
 ├── components/          # Reusable React components
 │   ├── adittions/       # Add-ons/extras selection
@@ -116,7 +116,7 @@ src/
 └── index.css            # Global styles
 ├── Data.jsx             # Data utilities/constants
 └── DishData.jsx         # Dish data/mock data
-\`\`\`
+```
 
 ## Key Components
 
@@ -131,7 +131,7 @@ src/
 
 ## Getting Started
 
-1. Start the development server: \`npm run dev\`
+1. Start the development server: `npm run dev`
 2. Navigate to the home page to browse dishes
 3. Use the search feature to find specific items
 4. Click on any dish to view details and customization options
