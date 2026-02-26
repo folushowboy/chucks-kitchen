@@ -25,7 +25,7 @@ A modern, responsive web application for browsing and ordering food online. Buil
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/folushowboy/chucks-kitchen.git>
 cd chuks-kitchen
 ```
 
