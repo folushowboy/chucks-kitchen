@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+.dish_card {
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+}
+.dish_content {
+  padding: 0 17px;
+}
+.dish_card h3 {
+  font-family: "Inter", sans-serif;
+
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+.dish_card p {
+  font-family: "Inter", sans-serif;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.dish_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0 45px 0;
+}
+.dish_price p {
+  font-family: "Inter", sans-serif;
+  color: #ff7a18;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.dish_card img {
+  width: 100%;
+  padding: 4px;
+  padding-bottom: 25px;
+}

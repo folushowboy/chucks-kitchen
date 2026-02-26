@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+footer {
+  background: #62412e;
+  padding: 18px 48px 18px 48px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0 10px 0;
+}
+.Navbar li {
+  list-style: none;
+  padding: 10px 0;
+}
+.Navbar a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0%;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.Navbar a:hover {
+  color: #ff7a18;
+}
+.Navbar a.active {
+  color: #ff7a18;
+}
+.text h1 {
+  font-family: "Island Moments", cursive;
+  color: #ff7a18;
+  font-size: 37.01px;
+  letter-spacing: 0%;
+  line-height: 40.8px;
+  font-weight: 500;
+}
+.text p {
+  width: 250px;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: 36px;
+  letter-spacing: 0%;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+}
+.links h3 {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0%;
+  line-height: 36px;
+  font-weight: 500;
+}
+.links p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0%;
+  line-height: 36px;
+  font-weight: 500;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 30px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0%;
+  line-height: 36px;
+  font-weight: 500;
+}
+.arrow {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    width: 100%;
+    padding: 10px 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    width: 100%;
+    display: block;
+    padding: 10px 19px;
+  }
+  .footer {
+    width: 100%;
+    display: block;
+  }
+  .footer_bottom {
+    margin: 0;
+  }
+  .links h3 {
+    margin-top: 30px;
+  }
+}

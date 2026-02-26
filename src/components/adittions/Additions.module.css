@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+.addition_container {
+  background-image: url(../../assets/images/menu-additions.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding-top: 90px;
+  box-sizing: border-box;
+  position: relative;
+}
+.addition_content {
+  width: 50%;
+  padding: 164px 48px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+.addition_content h1 {
+  font-size: 48px;
+  line-height: 61px;
+  letter-spacing: 0%;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.addition_content p {
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+
+
+@media (max-width: 1440px) {
+  .addition_content {
+    width: 50%;
+    padding: 100px 19px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+  }
+  .addition_content h1 {
+    font-size: 48px;
+    line-height: 61px;
+    margin-bottom: 40px;
+  }
+  .addition_content p {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .addition_content {
+    width: 50%;
+    padding: 100px 19px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+  }
+  .addition_content h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .addition_content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .addition_content {
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+  }
+  .addition_content {
+    width: 100%;
+    padding: 100px 19px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+  }
+  .addition_content h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .addition_content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+}

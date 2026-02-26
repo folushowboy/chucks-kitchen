@@ -1,0 +1,24 @@
+.container{
+background: #F3F4F6;
+width: 100%;
+padding: 82px 48px;
+
+}
+.content {
+ background: #fff;
+ width: 100%;
+ margin: 0 auto;
+ padding: 26px;
+ border-radius: 14px;
+}
+.card p {
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+.active{
+    background: #FFE1C4;
+}

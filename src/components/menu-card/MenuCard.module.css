@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+.menu_card{
+background: #fff;
+border-radius: 20px 20px 0 0;
+}
+
+.menu_card p{
+    font-family: "Inter", sans-serif;
+    padding: 50px 0 85px 0;
+    text-align: center;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0%;
+}

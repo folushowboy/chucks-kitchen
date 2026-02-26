@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+.cart{
+    background: #F3F4F6;
+    padding: 190px 44px;
+}
+.cart h3{
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    margin-bottom: 18px;
+}
+
+
+
+@media (max-width: 1440px) {
+ 
+   .cart{
+    padding: 90px 19px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cart{
+    padding: 90px 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart{
+    padding: 90px 19px;
+  }
+}
