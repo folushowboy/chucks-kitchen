@@ -22,3 +22,11 @@ padding: 82px 48px;
 .active{
     background: #FFE1C4;
 }
+
+@media (max-width: 768px) {
+ 
+  .container {
+    width: 100%;
+    padding: 64px 19px;
+  }
+}
